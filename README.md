@@ -1,4 +1,5 @@
-# Video 1.1 Application
+# Video 2.2 Application
 
 Resources for the Video course
-A simple Node.js application to be built as a Docker container
+
+A Dockerfile definition building a simple NodeJS application
