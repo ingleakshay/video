@@ -1,4 +1,4 @@
-FROM node:8
+FROM node:8-slim
 
 COPY index.js /app/index.js
 
