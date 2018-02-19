@@ -1,4 +1,4 @@
-FROM node:8-slim
+FROM node:8-alpine
 
 COPY index.js /app/index.js
 
