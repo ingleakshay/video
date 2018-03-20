@@ -1,9 +1,11 @@
 const http = require('http')
 const os = require('os')
 const port = 3000
+const fs = require('fs')
 
 const requestHandler = (request, response) => {
-  response.end('Hello from app version 1\n')
+  fs.readFileSync('/etc/passwd')
+  response.end('Hello from app with I/O\n')
 }
 
 const server = http.createServer(requestHandler)
